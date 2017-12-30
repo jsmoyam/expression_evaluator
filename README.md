@@ -34,4 +34,5 @@ res = ev.evaluate(values)
 ```
 
 Execute tests with nosetests in the root of the project.
+
 You can extend functionality adding simple python functions to operations.py.
