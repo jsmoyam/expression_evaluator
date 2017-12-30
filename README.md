@@ -1,4 +1,4 @@
-# expression_evaluator
+# Expression analyzer and evaluator
 Expression analyzer and evaluator for python
 
 Example:
@@ -32,3 +32,6 @@ values = {'a': 'hello world', 'b': 8, 'c': 6, 'xxx': False}
 ev = ExpressionEvaluator(expr)
 res = ev.evaluate(values)
 ```
+
+Execute tests with nosetests in the root of the project.
+You can extend functionality adding simple python functions to operations.py.
