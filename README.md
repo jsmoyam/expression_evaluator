@@ -27,7 +27,7 @@ ev = ExpressionEvaluator(expr)
 res = ev.evaluate(values)
 ```
 ```
-expr = 'length[a]=9 and (not xxx and a contains "hello") and (b<10 or c=6) and (xxx=False and True=have_passed_time["2017-01-01 00:00:00",60,weeks]) and ((2*c)<b or (b+c)=50)'
+expr = 'length[a]=9 and (not xxx and a contains "hello") and (b<10 or c=6) and (xxx=False and have_passed_time["2017-01-01 00:00:00",60,weeks]) and ((2*c)<b or (b+c)=50)'
 values = {'a': 'hello world', 'b': 8, 'c': 6, 'xxx': False}
 ev = ExpressionEvaluator(expr)
 res = ev.evaluate(values)
